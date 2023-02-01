@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+>>>>>>SIZE Iphone 12 Pro <<<<<<
+
+<img width="441" alt="Bildschirm­foto 2023-02-01 um 10 36 09" src="https://user-images.githubusercontent.com/110630039/216017314-35fa32e4-d630-45f2-92d8-8ccfeed921a1.png">
+<img width="634" alt="Bildschirm­foto 2023-02-01 um 10 35 51" src="https://user-images.githubusercontent.com/110630039/216017362-c24b28e0-271d-46e9-bd0a-467c15f34338.png">
+<img width="494" alt="Bildschirm­foto 2023-02-01 um 10 36 20" src="https://user-images.githubusercontent.com/110630039/216017374-4843e80b-f65f-4c69-9f51-b2247b0ecca9.png">
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
