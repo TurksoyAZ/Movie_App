@@ -1,0 +1,83 @@
+.containerMovieDetail {
+  width: 100%;
+  height: 100vh;
+
+  .imgArticle {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    a {
+      display: inline-block;
+      background-color: cadetblue;
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      text-decoration: none;
+      margin-top: 20px;
+      margin-left: 30px;
+      padding: 0 20px;
+      border-radius: 20px;
+
+      b {
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .infoArticle {
+    width: 100%;
+    height: 40vh;
+    overflow: auto;
+    text-align: center;
+    box-shadow: white 0 0 10px, white 0 0 20px, white 0 0 30px, white 0 0 40px,
+      white 0 0 50px, white 0 0 60px, white 0 0 70px, white 0 0 80px,
+      white 0 0 90px, white 0 0 100px, white 0 0 110px, white 0 0 120px,
+      white 0 0 130px, white 0 0 140px, white 0 0 150px, white 0 0 160px,
+      white 0 0 170px, white 0 0 180px, white 0 0 190px, white 0 0 200px,
+      white 0 0 210px, white 0 0 220px;
+    font-size: 19px;
+    h1 {
+      position: absolute;
+      width: 350px;
+      top: 350px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+      font-weight: bold;
+    }
+    h2 {
+      margin: 0;
+    }
+    p {
+      margin: 0;
+    }
+    a {
+      color: rgb(250, 250, 250);
+      text-decoration: none;
+      background-color: cadetblue;
+      padding: 5px 30px;
+      font-size: 30px;
+      border-radius: 10px;
+    }
+  }
+
+  .navDetail {
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,194 @@
+.sectionMovieListe {
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+  text-align: center;
+
+  .first_MovieListArticle {
+    width: 100%;
+    height: 15vh;
+    position: relative;
+
+    input {
+      width: 100%;
+      padding: 5px;
+      font-size: 24px;
+    }
+
+    .genreDiv {
+      padding: 0px 15px;
+      width: 24.2rem;
+      height: 0px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      overflow: hidden;
+      position: absolute;
+      top: 40%;
+      transition: all 0.3s ease;
+      background-color: white;
+
+      span {
+        width: 120px;
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 5px 0px;
+        margin-top: 7px;
+        display: grid;
+        place-items: center;
+      }
+    }
+
+    .arrowOpen {
+      color: rgb(251, 251, 251);
+      font-size: 40px;
+      position: absolute;
+      right: 0px;
+      top: 40px;
+    }
+
+    b {
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: absolute;
+      right: 40px;
+      top: 60px;
+      color: white;
+    }
+  }
+
+  //Toggle
+  .openGenreList {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: 5px;
+    top: 40%;
+    transition: all 0.3s ease;
+
+    span {
+      width: 120px;
+      background-color: cadetblue;
+      color: white;
+      font-size: 20px;
+      border-radius: 20px;
+      padding: 5px 0px;
+      margin-top: 7px;
+      display: grid;
+      place-items: center;
+    }
+  }
+
+  .second_MovieListArticle {
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    gap: 20px;
+
+    .loadMoreBox {
+      img {
+        width: 35%;
+        border-radius: 20px;
+      }
+    }
+
+    .filmsBox {
+      width: 100%;
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+      border: 2px solid black;
+      border-style: none none solid none;
+      padding-bottom: 10px;
+      overflow: auto;
+
+      .infoBox {
+        text-align: center;
+        width: 100%;
+        line-height: 35px;
+
+        h3 {
+          color: rgb(74, 73, 70);
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        span {
+          font-size: 20px;
+        }
+
+        b {
+          font-size: 25px;
+          right: 0px;
+          color: rgb(14, 14, 14);
+        }
+
+        a {
+          background-color: cadetblue;
+          color: white;
+          text-decoration: none;
+          font-size: 17px;
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    button {
+      border-radius: 10px;
+      padding: 5px;
+      color: white;
+      font-weight: bold;
+      font-size: 25px;
+      background-color: cadetblue;
+      letter-spacing: 4px;
+    }
+  }
+
+  .favoriListe {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all 0.3s ease;
+  }
+
+  .favoriListeOpen {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    transition: all 0.3s ease;
+    overflow: auto;
+  }
+
+  .navMovieListe {
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+}
